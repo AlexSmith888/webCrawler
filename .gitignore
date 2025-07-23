@@ -33,7 +33,7 @@ build/
 !**/src/test/**/build/
 ## exclude properties files
 /src/main/resources/*.properties
-/src/main/resources/database/test.java
+/src/main/java/server/database/test1
 
 ### VS Code ###
 .vscode/

@@ -58,7 +58,6 @@ public class RawLinksWorker {
                         logger.debug("The child link {} has been put into the rawQueue " +
                                 "for the link : {}", next, item.message());
                     }
-                    System.out.println("rawQueue size is : " + rawQueue.size());
 
                 } catch (InterruptedException e) {
                     logger.warn("RawLinksWorker interrupted. Exiting ..");
