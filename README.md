@@ -1,7 +1,6 @@
 ***Multithreaded WEB CRAWLER***
-Crawls data for a particular reference.  
-The server Listens for incoming requests and sends short acceptance messages to the sender.   
-Consists of a few pools of workers that validate / parse / save/ process successive links concurrently.    
+The server listens to incoming requests and receives requests to concurrently crawl links.    
+Consists of a few pools of workers that validate / parse / save/ process links trees concurrently.      
 Prevents links duplication   
 Te multithreaded environment provides the average throughput of 7 million links per day  
 
@@ -12,3 +11,6 @@ Te multithreaded environment provides the average throughput of 7 million links 
   ***DB_PORT=***  
   ***DB_NAME=***  
   ***COLLECTION=***  
+
+TO DO:   
+Separate queues per each thread not per each useCase  
